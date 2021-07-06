@@ -1,0 +1,26 @@
+import gmpy2
+p =gmpy2.mpz(473398607161)
+q =gmpy2.mpz(4511491)
+e =gmpy2.mpz(17)
+phi_n= (p - 1) * (q - 1)
+d = gmpy2.invert(e, phi_n)
+print("d is:")
+print (d)
+
+
+RSA原理：
+p、q 互质
+N=p*q
+倒推m 困难
+&(N)=(p-1)(q-1)
+e属于 （e，&（N))=1
+根据辗转相除法
+得到
+ex-&y=1
+ex=1+(p-1)(q-1)y
+
+e 、&(N) 公钥
+x 私钥
+
+A的e次方 = R（mod N）
+R的x次方 = A（modN)
