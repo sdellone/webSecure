@@ -231,8 +231,10 @@ dirsearch.py -u 目标网址 -e*
 便可列出目录
 
 密码学：
-1. python脚本
+1. python脚本  常用python脚本
 2. 在线解密版本
+
+baby、easy 开头的题目比较容易 、早点拿下一血 
 
 
 
