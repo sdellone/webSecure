@@ -222,6 +222,18 @@ ctf 网址:
 https://www.ssleye.com/
 https://www.cmd5.com/
 
+IDA逆向分析神器
+pwn、reverse 做题神器
+
+dirsearch 基于python的网站目录结构扫描器
+命令行下切换到dirsearch-master 目录下，执行命令
+dirsearch.py -u 目标网址 -e*
+便可列出目录
+
+密码学：
+1. python脚本
+2. 在线解密版本
+
 
 
 
