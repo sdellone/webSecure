@@ -218,6 +218,10 @@ MIME类型校验就是我们在上传文件到服务端的时候，
 服务端会对客户端也就是我们上传的文件的Content-Type类型进行检测，
 如果是白名单所允许的，则可以正常上传，否则上传失败。
 
+ctf 网址:
+https://www.ssleye.com/
+https://www.cmd5.com/
+
 
 
 
