@@ -236,6 +236,59 @@ dirsearch.py -u 目标网址 -e*
 
 baby、easy 开头的题目比较容易 、早点拿下一血 
 
+基础前置技能
+1.http知识：基本http请求方法、响应状态码、请求头、响应头
+2.web前端知识：html、javascript、css
+3.web后端知识：php、python、java等
+4.系统及中间件：linux apache nginx tomcat 等
+5.数据库：MySQL mongo redis sqlite
+
+http请求报文：
+content-type （请求正文的MIME类型）
+
+php语言基础 
+windows：wamp 
+wamp下载地址：https://sourceforge.net/projects/wampserver/
+
+php 学习路线：
+php弱类型 
+== 在进行比较时，会将字符串转换成相同类型
+=== 
+<? php $a==$b;$a===$b;?>
+<? php var_dump("admin"==0) ; //true
+var_dump("1admin"==1); // true
+var_dump("admin1"==1); // false
+var_dump("admin0"==0);  // true
+
+信息泄露：
+1. .git信息泄露 .svn信息泄露
+2. 文件结构信息泄露
+3. 备份文件和缓存文件泄露 *.bak ，*.zip 
+4. robots.txt 信息泄露
+5. 源代码信息泄露 ：github 等
+
+.svn漏洞 直接访问
+githack （github源码）扫描
+
+二进制内容目录:
+1.ctf 中 reverse方向概述
+
+常规逆向流程：
+1.使用strings file binwalk IDA 等静态分析工具收集，并根据这些静态信息进行google/github搜索
+2. 研究程序保护方法 ，如代码混淆 保护壳 及反调试 技术，并设法破除或绕过保护
+3. 反汇编目标软件 快速定位到关键代码进行分析
+4. 结合动态调试 验证自己初期猜想 
+5. 针对程序功能 写出对应脚本 并解出flag
+
+windows  小端序
+
+动态分析技术 （Olldebuge）分析32位 ， 64位用 吾爱破解 X64 
+静态分析技术 （IDA）
+
+misc 和 crypto
+
+Android逆向工具：IDA
+
 
 
 
