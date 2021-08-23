@@ -292,6 +292,9 @@ Android逆向工具：IDA
 php混淆类 在线破解:
 https://www.zhaoyuanma.com/phpjm.html
 
+md5 绕过 ，构造 payload ：
+http://114.67.246.176:17871/?kkeyey1=QNKCDZO&kkeyey2=s878926199a
+
 
 
 
