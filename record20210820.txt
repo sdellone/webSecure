@@ -295,6 +295,9 @@ https://www.zhaoyuanma.com/phpjm.html
 md5 绕过 ，构造 payload ：
 http://114.67.246.176:17871/?kkeyey1=QNKCDZO&kkeyey2=s878926199a
 
+php把以0E/0e开头的哈希值解释为0
+所以找到一个oe开头的哈希值绕过
+
 
 
 
