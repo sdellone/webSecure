@@ -289,6 +289,9 @@ misc 和 crypto
 
 Android逆向工具：IDA
 
+php混淆类 在线破解:
+https://www.zhaoyuanma.com/phpjm.html
+
 
 
 
