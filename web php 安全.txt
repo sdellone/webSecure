@@ -1,0 +1,25 @@
+-- 2021-08-27 web php安全培训
+
+1. 弱类型
+  题型1 strcmp字符串比较
+   define('FLAG','pwnhub{THIS_IS_FLAG}');
+   if(strcmp($_GET['flag'],FLAG==0){
+   echo "success,flag:" .FLAG;
+   }
+   
+   CTF弱类型题目鼻祖，但实际案例不多
+   strcmp:https://goo.gl/II7YO8
+   如果 str1 小于 str2 ， 返回<0 ; 
+   如果 str1 大于 str2 ，返回>0 ;
+   如果 相等 ，返回 0 ;
+   strcmp比较出错 -> 返回NULL => NULL == 0 --> Get Flag!
+
+2. 字符串比较升级版 
+    define('FLAG','pwnhub{THIS_IS_FLAG}');
+	if($_GET['s1']!=$_GET['s2']
+	&& md5($_GET['s1'])==md5($_GET['s2'])){
+	echo "success,flag:".FLAG;}
+	
+	原值不相等，md5值相等
+	php中 字符串'0e123466' 开头默认当成数字处理 ！
+	
