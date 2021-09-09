@@ -28,5 +28,30 @@
 	强类型绕过：
 	md5([1,2,4])== md5([4,5,6]) == NULL
 	
-3.
+3.php 伪随机数
+
+文件包含漏洞：
+ 漏洞介绍：
+   php 文件包含漏洞 四个函数： include()|include_once()|require()|require_once()
+ 漏洞类别：
+   lrf(本地文件包含)
+   rfi（远程文件包含）
+ 漏洞利用：
+   包含某段php代码，得到webshell
+   读取关键的配置文件/敏感信息
+php伪协议 
+   post时 file=php://input   post data : <？phpinfo();?>
+   
+php://filter
+index.php?file=php://filter/read=convert.base64-encode/resourse=index.php
+
+
+文件上传漏洞：
+ 实验平台：upload-labs 
+ 
+ https://ctf.bugku.com/challenges/detail/id/81.html 文件包含
+ 
+ https://buuoj.cn/challenges   upload-labs所有题目
+
+https://ctf.show/challenges 
 	
