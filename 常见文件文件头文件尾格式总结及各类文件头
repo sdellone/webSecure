@@ -1,3 +1,4 @@
+JPG                                       FF D8开头                                    FF D9结尾
 JPEG (jpg)，                        　　   文件头：FFD8FF　　　　　　　　　　　　　　　   文件尾：FF D9　　　　　　　　　　　　　　　
 PNG (png)，                       　　     文件头：89504E47　　　　　　　　　　　　　　　 文件尾：AE 42 60 82
 GIF (gif)，                           　 　文件头：47494638　　　　　　　　　　　　　　　 文件尾：00 3B                                           
